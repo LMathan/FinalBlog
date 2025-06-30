@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <title>Blog CMS - Modern Content Management System</title>
+    <meta name="description" content="A modern blog content management system with admin dashboard and public viewing capabilities." />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Blog CMS - Modern Content Management System" />
+    <meta property="og:description" content="A modern blog content management system with admin dashboard and public viewing capabilities." />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="Blog CMS - Modern Content Management System" />
+    <meta property="twitter:description" content="A modern blog content management system with admin dashboard and public viewing capabilities." />
+    
+    <!-- Load TipTap CSS -->
+    <style>
+      /* TipTap Editor Styles */
+      .ProseMirror {
+        outline: none;
+      }
+      
+      .ProseMirror h1,
+      .ProseMirror h2,
+      .ProseMirror h3,
+      .ProseMirror h4,
+      .ProseMirror h5,
+      .ProseMirror h6 {
+        line-height: 1.1;
+        margin-top: 2.5rem;
+        margin-bottom: 1.25rem;
+        text-wrap: pretty;
+      }
+      
+      .ProseMirror h1 { font-size: 2.25rem; font-weight: 800; }
+      .ProseMirror h2 { font-size: 1.875rem; font-weight: 700; }
+      .ProseMirror h3 { font-size: 1.5rem; font-weight: 600; }
+      .ProseMirror h4 { font-size: 1.25rem; font-weight: 600; }
+      .ProseMirror h5 { font-size: 1.125rem; font-weight: 600; }
+      .ProseMirror h6 { font-size: 1rem; font-weight: 600; }
+      
+      .ProseMirror p {
+        margin: 1.25em 0;
+      }
+      
+      .ProseMirror ul,
+      .ProseMirror ol {
+        padding: 0 1rem;
+        margin: 1.25rem 0;
+      }
+      
+      .ProseMirror li {
+        margin: 0.25rem 0;
+      }
+      
+      .ProseMirror blockquote {
+        padding-left: 1rem;
+        border-left: 3px solid #e2e8f0;
+        font-style: italic;
+        margin: 1.5rem 0;
+      }
+      
+      .ProseMirror pre {
+        background: #1e293b;
+        color: #e2e8f0;
+        font-family: 'JetBrainsMono', 'SFMono-Regular', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', monospace;
+        padding: 0.75rem 1rem;
+        border-radius: 0.5rem;
+        overflow-x: auto;
+        margin: 1.5rem 0;
+      }
+      
+      .ProseMirror code {
+        background-color: #f1f5f9;
+        border-radius: 0.25rem;
+        color: #334155;
+        font-size: 0.85em;
+        font-weight: 600;
+        padding: 0.25em 0.4em;
+      }
+      
+      .ProseMirror pre code {
+        background: none;
+        color: inherit;
+        font-size: inherit;
+        font-weight: inherit;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <!-- This is a replit script which adds a banner on the top of the page when opened in development mode outside the replit environment -->
+    <script type="text/javascript" src="https://replit.com/public/js/replit-dev-banner.js"></script>
+  </body>
+</html>

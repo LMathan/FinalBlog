@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES2020",              // Allows top-level await
-    "module": "ES2022",              // Enables import.meta
+    "module": "esnext",             // Enables import.meta
     "lib": ["esnext"],
     "outDir": "dist",
     "strict": true,

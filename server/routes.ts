@@ -1,7 +1,7 @@
 import type { Express } from "express";
 import { createServer, type Server } from "http";
 import { storage } from "./storage";
-import { insertPostSchema, updatePostSchema } from "@shared/schema";
+import { insertPostSchema, updatePostSchema } from "../../shared/schema";
 import { z } from "zod";
 import slugify from "slugify";
 import sanitizeHtml from "sanitize-html";
